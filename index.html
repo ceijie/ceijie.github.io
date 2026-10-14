@@ -3,107 +3,88 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>ceijie</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesomee>
+<style>
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI',sans-serif;
 }
 
 body{
-    background:#b8b8b8;
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:30px;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    padding:20px;
 }
 
 .container{
-    width:450px;
-    background:#eeeeee;
-    border-radius:32px;
-    padding:40px 30px;
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
+    width:420px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border-radius:30px;
+    padding:35px;
 }
 
 .logo{
     width:120px;
     height:120px;
-    background:black;
-    color:white;
     border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:20px auto;
+    margin:auto;
+    background:#1DB954;
+    color:white;
     font-size:42px;
     font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .username{
+    color:white;
     text-align:center;
-    font-size:42px;
-    font-weight:700;
-    margin-bottom:10px;
-}
-
-.subtitle{
-    text-align:center;
-    color:#666;
-    margin-bottom:30px;
+    font-size:36px;
+    margin:20px 0;
 }
 
 .card{
+    display:block;
     background:white;
+    color:black;
+    text-decoration:none;
     border-radius:20px;
     padding:20px;
-    margin-bottom:20px;
-    text-decoration:none;
-    color:black;
-    display:block;
-    transition:.2s;
+    margin-top:20px;
+    transition:.3s;
 }
 
 .card:hover{
-    transform:translateY(-3px);
+    background:#1DB954;
+    color:white;
+    transform:translateY(-5px);
 }
 
 .card-title{
-    font-size:20px;
+    font-size:22px;
     font-weight:bold;
-    margin-bottom:8px;
 }
 
 .card-text{
     color:#666;
 }
 
-.socials{
-    margin-top:30px;
-    display:flex;
-    justify-content:center;
-    gap:25px;
-}
-
-.socials a{
-    color:black;
-    font-size:34px;
-}
-
 .footer{
     text-align:center;
+    color:#ddd;
     margin-top:25px;
-    color:#777;
-    font-size:14px;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <div class="container">
@@ -112,10 +93,27 @@ body{
 
     <div class="username">@ceijie</div>
 
-    <div class="subtitle">
-        Artist • Creator • Builder
+    <a class="card"
+       href="https://open.spotify.com/track/5D2xuzFaj8Y08QdH7PZpvK"
+       target="_blank">
+
+        <div class="card-titleten to my latest track</div>
+
+    </a>
+
+    <a class="card"
+tify.com/artist/5IWDjeXR2bCQpoaR3JK5IW
+
+        <div class="card-title">🎤 Spotify Artist</div>
+        <div class="card-text">Visit my artist profile</div>
+
+    </a>
+
+    <div class="footer">
+        ceijie.github.io
     </div>
 
-    <a class="card" href.com/track/5D2xuzFaj8Y08QdH7PZpvK
-        <div class="card-title">🎵 Identity</div>
-        <div class="card-text">Listen on Spotify</div>
+</div>
+
+</body>
+</html>
